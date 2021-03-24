@@ -10,8 +10,7 @@ function UserCard(props) {
 			/>
 			<div className="card-body">
 				<h5 className="card-title">
-					{props.name.title}
-					{props.name.first} {props.name.last}
+					{props.name.title}. {props.name.first} {props.name.last}
 				</h5>
 				<p className="card-text">{props.email}</p>
 				<p className="card-text">{props.phone}</p>
